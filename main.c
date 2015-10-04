@@ -7,7 +7,7 @@
 #include <fcntl.h>
 
 #define MAX_SIZE 1024*1024*2
-#define START_SIZE 1024
+#define START_SIZE 1
 
 int main(int argc, char *argv[])
 {
