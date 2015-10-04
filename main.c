@@ -66,10 +66,6 @@ int main(int argc, char *argv[])
 		t = (t2.tv_sec-t1.tv_sec)*1000 + ((double) t2.tv_usec-t1.tv_usec)/1000;
 		t /= iterations;
 
-#if 0
-		t = ((double)((t2.tv_sec-t1.tv_sec)*1000 + (t2.tv_usec-t1.tv_usec)/1000))/
-		    (1000*iterations);
-#endif
 		fprintf(outfile, "%lf,", t);
 	}
 
